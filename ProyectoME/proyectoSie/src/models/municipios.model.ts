@@ -1,7 +1,7 @@
 export interface Municipio {
     id:Number,
     nombre:String,
-    estado:String,
+    estado:Number,
     codigo:String,
     estado_nombre:String,
 }

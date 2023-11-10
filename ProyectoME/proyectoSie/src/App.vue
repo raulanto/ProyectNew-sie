@@ -1,14 +1,7 @@
-<script setup lang="ts">
-import SelecEstado from "./components/SelecEstado.vue";
-</script>
-
-<template>
-  <div id="app">
-    <SelecEstado ></SelecEstado>
-
-  </div>
+<template class="">
+<Entidades></Entidades>
 </template>
 
-<style scoped>
-
-</style>
+<script setup lang="ts">
+import Entidades from '@/views/Entidades.vue'
+</script>
